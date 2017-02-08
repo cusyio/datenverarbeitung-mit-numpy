@@ -1,5 +1,5 @@
 
-# Datenverarbeitung mit Numpy
+# Datenverarbeitung mit NumPy
 
 ## Voraussetzungen
 
@@ -7,7 +7,7 @@ Grundkenntnisse in Python
 
 ## Ergebnis
 
-Nach diesem Kurs können Sie eigene Programme zur Datenverarbeitung mit Numpy schreiben und optimieren.
+Nach diesem Kurs können Sie eigene Programme zur Datenverarbeitung mit NumPy schreiben und optimieren.
 
 ## Zielgruppe
 
@@ -16,9 +16,9 @@ Analysten, Wissenschaftler und Ingenieure, die Berechnungen mit numerischen Date
 
 ## Kursbeschreibung
 
-Numpy ist die beliebteste Python-Bibliothek zur Verarbeitung numerischer Daten. Sie kombiniert die Benutzerfreundlichkeit von Python mit der Geschwindigkeit einer reinen C-Implementierung. 
-Mit Numpy lassen sich Berechnungen mit großen Datenreihen und Matrizen in wenigen Zeilen Code implementieren. Numpy eignet sich daher hervorragend zur Laufzeitoptimierung von Python-Programmen.
-Der Kurs gibt eine anschauliche Einführung in die wesentlichen Features von Numpy mit vielen praktischen Beispielen. Als logische Fortsetzung der Grundfunktionalität werden die Möglichkeiten des Pakets Scipy vorgestellt, das zahlreiche mathematische Verfahren zur Anwendung auf Numpy-Datenstrukturen enthält.
+NumPy ist die beliebteste Python-Bibliothek zur Verarbeitung numerischer Daten. Sie kombiniert die Benutzerfreundlichkeit von Python mit der Geschwindigkeit einer reinen C-Implementierung. 
+Mit NumPy lassen sich Berechnungen mit großen Datenreihen und Matrizen in wenigen Zeilen Code implementieren. NumPy eignet sich daher hervorragend zur Laufzeitoptimierung von Python-Programmen.
+Der Kurs gibt eine anschauliche Einführung in die wesentlichen Features von NumPy mit vielen praktischen Beispielen. Als logische Fortsetzung der Grundfunktionalität werden die Möglichkeiten des Pakets Scipy vorgestellt, das zahlreiche mathematische Verfahren zur Anwendung auf NumPy-Datenstrukturen enthält.
 
 
 ## Kursdauer 
@@ -30,33 +30,54 @@ Der Kurs gibt eine anschauliche Einführung in die wesentlichen Features von Num
 
 | Tag 1 | Tag 2 |
 |-------|-------|
-| Einführung in Numpy | ???
-| Funktionen / ufuncs | Optimierung |
-| Broadcasting | Die Bibliothek Scipy |
+| Einführung in NumPy | Broadcasting |
+| Funktionen / ufuncs | Optimierung mit NumPy |
+| Indizierung | Die Bibliothek Scipy |
 | Typische Anwendungen | weitere Bibliotheken |
 
 
-### Einführung in Numpy
+### Einführung in NumPy
 
-* Überblick über den Funktionsumfang von Numpy
+* Überblick über den Funktionsumfang von NumPy
 * arrays
-* Eingebaute Funktionen
-* ufuncs
+* dtypes
+* reshape
+* Erstellen von arrays
+* Laden/Speichern von Daten
+
+### Indizierung
+
 * Indizierung von arrays
 * Views
-* Broadcasting
+* fancy indexing
+* Sortieren
+* Mengenlogik
+
+### Funktionen
+
+* Eingebaute Funktionen
+* ufuncs
+* Matrizenoperationen
+* Rotation von Koordinaten
+
+### Optimierung
+
+* Eliminieren von Python-Schleifen mit NumPy
+* Spärlich besetzte Matrizen
+* Engpässe mit cProfile finden
 
 ### Typische Anwendungen
 
-* Matrizenmultiplikation
-* Rotation von Koordinaten
-* Spärlich besetzte Matrizen
 * Empfehlungssysteme
 * Eigenvektoren
 * Der PageRank Algorithmus
-* Engpässe mit cProfile finden
-* Eliminieren von Python-Schleifen mit Numpy
+* ein neuronales Netzwerk in NumPy implementieren
 
+### Broadcasting
+
+* Broadcasting
+* Stacking
+* Raveling
 
 ### Die Bibliothek Scipy
 
@@ -70,4 +91,6 @@ Der Kurs gibt eine anschauliche Einführung in die wesentlichen Features von Num
 * pandas
 * Statistiken mit statsmodel
 * maschinelles Lernen mit scikit-learn
-* Lösen linearer Gleichungssysteme mit Pulp
+* Lösen linearer Gleichungssysteme mit Pulp und Gurobi
+* Spark
+* Dask
